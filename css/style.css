@@ -1,0 +1,682 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+/**********
+Header Part
+**********/
+.header{
+width: 100%;
+height: 130px;
+background: #FFFFFF;
+z-index:999999999;
+position: relative;
+
+}
+
+.header .container{
+    padding-top:10px;
+}
+.navbar{
+    padding:0px !important;
+}
+.navbar-nav .nav-item{
+ padding-left: 20px;
+ padding-top: 16px;
+ 
+}
+.navbar-nav .nav-item a{
+    color:black !important;
+    font-size: 18px;
+}
+.navbar-brand{
+font-weight: 800;
+font-size: 35px;
+text-transform: uppercase;
+color: #FF4917 !important;
+
+}
+
+.dropdown a{
+    color:black !important;
+
+}
+.nav-items{
+    padding-left:20px !important;
+    
+}
+.nav-items .nav-btn{   
+width: 212px;
+height: 70px;
+background: #162029 !important;
+border-radius: 34px;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+position: relative;
+}
+
+.nav-items .nav-btn .design{
+position: absolute;
+width: 83px;
+height: 60px;
+right: 0px;
+top: 3px;
+background: #FF4917;
+border-radius: 34px;
+}
+.nav-items .nav-btn .btn-text{
+    position: absolute;
+    z-index: 9999;
+    right: 25px;
+    bottom: 17px;
+}
+
+.header .header-img img{
+   display: inline-block;
+
+}
+/***********
+Banner Section
+***********/
+
+.banner{
+    background: url("../image/banner.png");
+    position: relative;
+    width: 100%;
+    height:85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(22, 32, 41, 0.75);    
+}
+.banner .banner-p{
+font-weight: 600;
+font-size: 21px;
+letter-spacing: 0.68em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.banner .banner-h2{
+
+font-weight: 700;
+font-size: 76px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+margin:25px 0px;
+}
+
+.banner .banner-details{
+    padding-top:190px;
+}
+
+ .get-started{
+width: 212px;
+height: 70px;
+background:  #FF4917 ;
+border-radius: 34px;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+position: relative;
+}
+
+.get-started .design{
+   position: absolute;
+    width: 83px;
+    height: 60px;
+    right: 0px;
+    top: 3px;
+    background:#162029 !important;
+    border-radius: 34px;
+    } 
+.get-started .btn-text{
+        position: absolute;
+        z-index: 999999999;
+        right: 25px;
+        bottom: 17px;
+    }
+.services{
+        width: 212px;
+        height: 70px;
+        background: #FCFCFC; 
+        border-radius: 34px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #162029;
+        position: relative;
+        margin-left:25px;
+        }
+.services .design{
+            position: absolute;
+            width: 83px;
+            height: 60px;
+            right: 0px;
+            top: 3px;
+            background:#FF4917 !important;
+            border-radius: 34px;
+            } 
+.services .btn-text{
+                position: absolute;
+                z-index: 999999999;
+                right: 25px;
+                bottom: 17px;
+            } 
+
+.parent {
+                position: relative;
+                top: 0;
+                left: 0;
+              }
+.image1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
+.image2 {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+               
+              }
+
+/***********
+About Us Section
+***********/
+.about-us{
+    margin:130px 0px;
+}
+.hypen{
+    width: 30px;
+    height: 3px;
+    background: #FF4917;
+   margin-top: 15px;
+  
+}
+.about-p1{
+    font-weight: 600;
+    font-size: 22px;
+    color: #FF4917;
+    margin-left: 10px;
+
+}
+
+.about-h2{
+font-weight: 700;
+font-size: 50px;
+letter-spacing: -0.02em;
+color: #14212A;
+margin:30px 0px;
+}
+.about-p2{
+font-weight: 400;
+font-size: 20px;
+color: #616161;
+
+}
+
+.about-round{
+    width:2px;
+    height:22px;
+    border-radius: 50%;
+    margin-top: 5px; 
+    background: #FF4917;
+    margin-left: 10px;
+}
+.about-p3{
+font-weight: 600;
+font-size: 20px;
+color: #14212A;
+margin-left: 10px;
+}
+
+.aboutus-btn .learn-more{   
+    width: 194px;
+    height: 70px;
+    background: #FF4917 !important;
+    border-radius: 34px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    }
+    
+    .aboutus-btn .design{
+    position: absolute;
+    width: 83px;
+    height: 60px;
+    right: 0px;
+    top: 3px;
+    background: #162029;
+    border-radius: 34px;
+    }
+    .aboutus-btn .btn-text{
+        position: absolute;
+        z-index: 9999;
+        right: 25px;
+        bottom: 17px;
+    }
+
+    /*********
+    Company Services Section
+    ************/
+
+        .company-services{
+            width: 100%;
+            height: 85vh;
+            background: #F5F5F5;
+            margin-top: 60px;
+            position: absolute;
+        } 
+   .parent-image{
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+.child-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+
+
+.company-services-line-1{
+width: 30px;
+height: 3px;
+background: #FF4917;
+margin-top: 16px;
+
+}
+.company-services-line-2{
+    width: 30px;
+    height: 3px;
+    background: #FF4917;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+  
+    }
+
+.company-services-p1{
+font-weight: 600;
+font-size: 22px;
+text-align: center;
+color: #FF4917;
+text-align: center;
+}
+
+.company-services-header{
+    margin-top: 80px;
+}
+
+.company-services-h2{
+font-weight: 700;
+font-size: 50px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #14212A;
+text-align: center;
+margin:30px 0px;
+}
+
+.card-1{
+width: 370px;
+height: 366px;
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(255, 73, 23, 0.1);
+margin:0 10px;
+}
+
+.company-services-card{
+    margin: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.card-1-element{
+    text-align: center;
+}
+.card-1-logo{
+    margin: 40px 0px;
+}
+.card-1-h3{
+font-weight: 600;
+font-size: 25px;
+margin:20px 0px;
+color: #14212A;
+}
+.card-1-p{
+margin:20px 0px;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #616161;
+}
+.card-1-arrow{
+    margin:20px 0px;
+}
+
+
+/***********
+Video Section
+***********/
+.video{
+    margin-top:975px;
+    position: relative;
+    
+}   
+
+.play-pause{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    bottom:40px;
+    left:1200px;
+    right: 20px;
+    border:none;
+ 
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid red;
+    position: absolute;
+    top: 455px;
+    bottom:40px;
+    left:1265px;
+    right: 20px;
+  }
+
+
+  /********
+  Our Core Features
+  *********/
+
+  .core-features-card-image{
+    position: relative;
+  }
+  .core-features-parent-image{
+    position:absolute;
+    left:0;
+    bottom:0;
+
+  }
+.core-features-card-image{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+  
+
+
+.card-align{
+    margin-top: -248px;
+}
+.vector-align{
+margin-top: -325px;
+}
+.consult1{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 175px;
+top: 4240px; */
+margin-top: -135px;
+margin-left: 16px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult1{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 175px;
+top: 4270px; */
+margin-top: -105px;
+margin-left: 16px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.consult2{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 495px;
+top: 4240px; */
+margin-left: 16px;
+margin-top: -135px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult2{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 495px;
+top: 4270px; */
+margin-top: -105px;
+margin-left: 16px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.consult3{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 875px;
+top: 4240px; */
+margin-top: -135px;
+margin-left: 16px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult3{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 875px;
+top: 4270px; */
+margin-top: -105px;
+margin-left: 16px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.consult4{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 175px;
+top: 4725px; */
+margin-left: 16px;
+margin-top: -120px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult4{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 175px;
+top: 4755px; */
+margin-left: 16px;
+margin-top: -90px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.consult5{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 495px;
+top: 4635px; */
+margin-left: 16px;
+margin-top: -120px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult5{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 495px;
+top: 4665px; */
+margin-left: 16px;
+margin-top: -90px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.consult6{
+position: absolute;
+width: 154px;
+height: 31px;
+/* left: 875px;
+top: 4635px; */
+margin-left: 16px;
+margin-top: -120px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.joinconsult6{
+position: absolute;
+width: 194px;
+height: 26px;
+/* left: 875px;
+top: 4665px; */
+margin-left: 16px;
+margin-top: -90px;
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.footer{
+position: absolute;
+width: 1920px;
+height: 5vh;
+background: #14212A;
+}
+.footer-company{
+    position: absolute;
+width: 182px;
+height: 59px;
+/* left: 375px;
+top: 9976px; */
+
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 59px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+margin-top: 150px;
+color: #FFFFFF;
+
+}
+.footer-p{
+position: absolute;
+width: 296px;
+height: 64px;
+margin-top: 180px;
+
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #788B9A;
+}
